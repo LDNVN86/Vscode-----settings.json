@@ -67,9 +67,6 @@ This repository provides a ready-to-use **VS Code `settings.json`** focused on a
 ### Contributing
 PRs and issues are welcome for additional Explorer/Editor tweaks.
 
-### License
-No license added yet. If you intend open-source, consider adding an MIT `LICENSE`.
-
 ---
 
 ## Tiếng Việt
@@ -134,8 +131,5 @@ Repo này cung cấp **file `settings.json` cho VS Code** với mục tiêu làm
 
 ### Đóng góp
 Chào mừng issue/PR để bổ sung các tinh chỉnh Explorer/Editor hữu ích.
-
-### Giấy phép
-Chưa thêm license. Nếu muốn mở mã nguồn, hãy cân nhắc thêm file `LICENSE` (ví dụ: MIT).
 
 ---
