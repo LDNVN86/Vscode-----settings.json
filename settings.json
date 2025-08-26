@@ -1,0 +1,36 @@
+{
+  // CHỌN 1 trong 2 (tùy mỗi người nha): 
+  "workbench.iconTheme": "material-icon-theme",
+  // "workbench.iconTheme": "vscode-icons",
+
+  "workbench.productIconTheme": "fluent-icons",
+
+  // Cây thư mục dễ đọc (ngăn cách cây thư mục dễ nhìn)
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "always",
+  // Đây là phần cấu hình ai muốn file hiển thị dạng <folder>/<folder | file> thì để true không thì false để hiện thị dạng cây (khuyến nghị)
+  "explorer.compactFolders": false,
+  //---------------------------//
+  "explorer.decorations.badges": false,
+
+  // Gộp file liên quan (File Nesting)
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.tsx": "$(capture).test.tsx, $(capture).spec.tsx, $(capture).stories.tsx, $(capture).types.ts, $(capture).schema.ts, $(capture).zod.ts, $(capture).module.css, $(capture).module.scss, $(capture).css",
+    "*.ts": "$(capture).test.ts, $(capture).spec.ts, $(capture).d.ts, $(capture).types.ts, $(capture).schema.ts, $(capture).zod.ts",
+    "*.js": "$(capture).test.js, $(capture).spec.js, $(capture).map",
+    "package.json": "pnpm-lock.yaml, yarn.lock, package-lock.json, .npmrc, .nvmrc, .prettierrc.*, .prettierignore, .eslintrc.*, .eslintignore, tsconfig*.json, next.config.*, postcss.config.*, tailwind.config.*, vercel.json, netlify.toml"
+  },
+
+  // Ẩn rác build cho gọn Explorer (tuỳ dự án)
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.next": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.turbo": true,
+    "**/.vercel": true,
+    "**/node_modules": true
+  }
+}
